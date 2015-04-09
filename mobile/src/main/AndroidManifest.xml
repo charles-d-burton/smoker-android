@@ -18,14 +18,13 @@
         </activity>
 
         <service
-            android:name=".services.MQTTSubscribe"
+            android:name=".services.MQTTService"
             android:enabled="true"
             android:exported="true" >
         </service>
-        <service
-            android:name=".services.MQTTPublish"
-            android:exported="false" >
-        </service>
     </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
 
 </manifest>

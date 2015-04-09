@@ -49,21 +49,7 @@ public class MainActivity extends ActionBarActivity {
     }
 
     private void connectToMQTT() {
-        try {
-            client.connect(null, new IMqttActionListener() {
-                @Override
-                public void onSuccess(IMqttToken iMqttToken) {
 
-                }
-
-                @Override
-                public void onFailure(IMqttToken iMqttToken, Throwable throwable) {
-
-                }
-            });
-        } catch (Exception e) {
-
-        }
 
     }
 }
